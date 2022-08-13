@@ -9,15 +9,15 @@ import Starred from './pages/Starred';
 
 function App() {
   return (
-    <><div>  h <Navs /></div>
-      
+    
+      <div>
       <Routes>
-        <Route exact={true} path="/" element={<Home/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/starred" element={<Starred/>}></Route>
        
       </Routes>
-    </>
-    
+   
+    </div>
   );
 }
 
