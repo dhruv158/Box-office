@@ -7,16 +7,19 @@ import Home from './pages/Home';
 import Starred from './pages/Starred';
 
 
+
 function App() {
+  
   return (
     
       <div>
+    
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/starred" element={<Starred/>}></Route>
        
       </Routes>
-   
+     
     </div>
   );
 }
